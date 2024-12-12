@@ -1,0 +1,24 @@
+React js
+
+- What and Why React 
+- Using React with CDN 
+- Create react Folder - 'npm create vite'
+- React Folder structure
+- JSX 
+- Components breaking 
+- Props and props drilling, children
+- CSS and Module css and Tailwind CSS
+- Function calling and EventListeners 
+- useState (State Management)
+- Form Handling 
+- Two Way Binding
+- Basic application like Todolist, 
+- API Calling (Axios)
+- useEffect for side stack rendering 
+- useRef for reference, useMemo 
+- Routing with React RouterDOM 
+- React Pagination 
+- React Toastify 
+- Context API 
+- Redux Toolkit
+- Deployment
