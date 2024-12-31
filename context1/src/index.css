@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:gilroy;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+.slider{
+    border-bottom: 1px solid red;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.slider h3{
+    color: red;
+    flex-shrink: 0;
+    padding: 5px 10px;
+    animation-name: move ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+
+@keyframes move {
+    100%{
+        transform: translate(-100%);
+    }
+}
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.nav div{
+    display: flex;
+    gap: 40px;
+}
